@@ -51,6 +51,7 @@
                         lineno: line,
                         colno: col,
                         stack: err ? err.stack : 'n/a',
+                        agent: window.navigator ? window.navigator.userAgent : 'n/a',
                     }
                 });
 
